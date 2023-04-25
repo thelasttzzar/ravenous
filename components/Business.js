@@ -16,18 +16,22 @@ function Business() {
     return (
         <div>
             <img />
-            <h1>{hardBusiness.name}</h1>
-            <h3>
+            <h1 className='title'>
+                {hardBusiness.name}
+            </h1>
+            <h3 className='address'> 
                 {hardBusiness.address}
                 {hardBusiness.city}
                 {hardBusiness.state}
                 {hardBusiness.zipcode}
             </h3>
-            <p>
+            <p className='category'>
                 {hardBusiness.category}
             </p>
-            {hardBusiness.rating}
-            {hardBusiness.reviewCount}
+            <div className='reviews'>
+                {hardBusiness.rating}
+                {hardBusiness.reviewCount}
+            </div>
         </div>
     )
 }
