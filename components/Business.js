@@ -1,15 +1,15 @@
 import React from 'react';
 
 const hardBusiness = {
-    src: 'https://d18d6vfm63ukth.cloudfront.net/content/uploads/2015/06/Decarli_Restaurant2_Rick_Schafer-386x290.jpg',
-    name: 'Lil Hard Dads',
+    src: 'https://d18d6vfm63ukth.cloudfront.net/content/uploads/2015/06/Decarli_Restaurant2_Rick_Schafer-https://images.halloweencostumes.com/products/43866/1-2/adult-mens-corndog-costume.jpg.jpg',
+    name: 'Daddy Corn Dog',
     address: '101 SW Your Butt BLVD.',
     city: 'Portland',
     state: 'OR',
     zipcode: '97008',
     category: 'Sandwiches',
-    rating: 4.5,
-    reviewCount: 90
+    rating: 1.5,
+    reviewCount: 807
 }
 
 function Business() {

@@ -1,16 +1,19 @@
 import React from 'react';
 import Business from './components/Business';
 
-function BusinessList() {
+const BusinessList = () => {
 
-    const businesses = business.map((business) =>
-        <div>
-        </div>
-    )
+    //const businesses = business.map((business) =>
 
     return (
         <ul>
-            {businesses}
+            {businesses.map((business)=> {
+                return (
+                    <div>
+                        <Business />
+                    </div>
+                )
+            })}
         </ul>
     );
 
